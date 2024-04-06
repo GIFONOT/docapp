@@ -1,89 +1,104 @@
 .profile {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    margin: 30px;
-    margin-left: 50px;
-    align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin: 30px;
+  margin-left: 50px;
+  align-items: flex-start;
 }
 
-
 .name {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 h4 {
-    margin-top: 0;
-    cursor: pointer; 
+  margin-top: 0;
+  cursor: pointer;
 }
 
 h4:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
-.onLogout_but{
-    color: #170600;
-    border: 1.5px solid #170600; 
-    background: none;
-    padding: 8px 16px; 
-    border-radius: 5px; 
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-    text-decoration: none;
-    font-size: 14px;
-    width: 90px;
-    margin-bottom: 15px;
-    cursor: pointer;
-    background-color: rgb(15, 45, 105);
-    color: #fff;
+.onLogout_but {
+  color: #170600;
+  border: 1.5px solid #170600;
+  background: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  text-decoration: none;
+  font-size: 14px;
+  width: 90px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  background-color: rgb(15, 45, 105);
+  color: #fff;
 }
 
-.onLogout_but:hover{
-    background-color: rgb(15, 45, 105);
-    border-color: rgb(15, 45, 105);
-    color: #fff;
-    opacity: 0.9; 
+.onLogout_but:hover {
+  background-color: rgb(15, 45, 105);
+  border-color: rgb(15, 45, 105);
+  color: #fff;
+  opacity: 0.9;
 }
 
 .link {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
-.youself{
-    width: 250px;
+.youself {
+  width: 250px;
 }
-.ava{
-    margin-left: 20px;
-    border-radius: 100%;
-    height: 170px;
-    width: 170px;   
+.ava {
+  margin-left: 20px;
+  border-radius: 100%;
+  height: 170px;
+  width: 170px;
 }
 
 .separator {
-    border: none;
-    border-top: 1px solid #170600; 
-    margin: 15px 0; 
-    width: 100%; /* Ширина линии */
+  border: none;
+  border-top: 1px solid #170600;
+  margin: 15px 0;
+  width: 100%; /* Ширина линии */
 }
 
 .info-container {
-    opacity: 0;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
 }
 
 .info-container.visible {
-    opacity: 1;
-    max-height: 1000px; 
+  opacity: 1;
+  max-height: 1000px;
 }
-.file{
-    background-color: #ffffff;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    border-radius: 5px;
+.file {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
 }
 .files > * {
-    margin-bottom: 10px; 
+  margin-bottom: 10px;
+  
+}
+
+.files button {
+  background-color: rgb(55, 75, 155);
+  color: #fff;
+  border: solid 1px #000000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.files button:hover {
+  opacity: 0.9;
 }

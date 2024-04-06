@@ -1,0 +1,44 @@
+.student-list {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+  }
+  .card {
+    display: flex;
+    
+    background-color: rgb(237, 237, 237);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .buttons button {
+    background-color: rgb(55, 75, 155);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .buttons button:hover {
+    opacity: 0.9;
+  }
+  

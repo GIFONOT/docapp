@@ -3,7 +3,7 @@ import logo from "./hselogo.svg";
 import "./Header.css";
 import { Link } from "react-router-dom";
 
-function Header({currentUser}) {
+function Header() {
   return (
     <>
       <head>
@@ -18,6 +18,7 @@ function Header({currentUser}) {
           <Link to="/">Главная </Link>
           <Link to="/account">Аккаунт</Link>
           <Link to="/student">Студенты</Link>
+          <Link to="/CompanyProfile">Профиль компании</Link>
           <Link to="/FAQ">FAQ</Link>
         </div>
       </body>

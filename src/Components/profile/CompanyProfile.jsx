@@ -1,11 +1,8 @@
+
 import React, { useState } from 'react';
-import { PDFDownloadLink } from '@react-pdf/renderer';
-import DownloadButton from '../profile/DownloadButton.jsx';
-import './Stud.css'
 
-const StudentList = () => {
-
-    const [students, setStudents] = useState([
+const CompanyProfile = () => {
+    const [company, setStudents] = useState([
         { id: 1, name: 'Козлова Анастасия', rating: 9.8, specialty: 'ПИ' },
         { id: 2, name: 'Михайлов Артем', rating: 8.7, specialty: 'БИ' },
         { id: 3, name: 'Белов Александр', rating: 9.5, specialty: 'ПИ' },
@@ -27,33 +24,32 @@ const StudentList = () => {
         { id: 19, name: 'Лебедева Алина', rating: 8.1, specialty: 'ПИ' },
         { id: 20, name: 'Федоров Иван', rating: 9.6, specialty: 'БИ' },
       ]);
-      
-      
-
-  const handleFeedback = (studentId) => {
-    alert(`Отклик для студента с ID ${studentId}`);
-  };
-  const sortedStudents = [...students].sort((a, b) => b.rating - a.rating);
-
-return (
-  <div className="student-list">
-    <h1>Список студентов ПИ / БИ</h1>
-    <div className="cards">
-      {sortedStudents.map((student) => (
-        <div key={student.id} className="card">
-          <h2>{student.name}</h2>
-          <p>Рейтинг: {student.rating}</p>
-          <p>Направление: {student.specialty}</p>
-          <div className="buttons">
-            <DownloadButton title={student.name} />
-            <button onClick={() => handleFeedback(student.id)}>Оставить отклик</button>
-          </div>
+  return (
+    <div className="company-profile">
+      <div className="company-info">
+        <h2>Google</h2>
+        <p>Было было</p>
+      </div>
+      <div className="students">
+        <div className="students-offers">
+          <h3>Студенты, которым отправили отклики:</h3>
+          <ul>
+            {company.map((student) => (
+              <li key={student.id}>{student.name}</li>
+            ))}
+          </ul>
         </div>
-      ))}
+        <div className="students-priority">
+          <h3>Студенты, которые добавили компанию в приоритет:</h3>
+          <ul>
+            {company.map((student) => (
+              <li key={student.id}>{student.name}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </div>
-  </div>
-);
+  );
 };
 
-export default StudentList;
-
+export default CompanyProfile;
