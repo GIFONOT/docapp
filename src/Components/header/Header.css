@@ -1,0 +1,30 @@
+body {
+  font-family: "hse", sans-serif;
+}
+.logo {
+  height: 70px;
+  width: 70px;
+  margin-right: 30px;
+}
+.header {
+  display: flex;
+  background-color: rgb(237, 237, 237);
+  text-align: center;
+  padding: 20px;
+  align-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.nav {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 24px;
+}
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: rgb(15, 45, 105);
+}
+.nav a:hover {
+  text-decoration: underline;
+}

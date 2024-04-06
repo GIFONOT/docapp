@@ -1,0 +1,52 @@
+.company-page {
+  padding: 20px;
+}
+.head {
+  display: flex;
+  align-items: baseline;
+  align-content: space-around;
+  justify-content: space-between;
+}
+ref{
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(15, 45, 105);
+  font-size: 18px;
+}
+.company-list {
+  gap: 20px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.company-card {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 20px;
+  width: 320px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.company-logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.company-info h2 {
+  margin-top: 0;
+}
+
+.company-info p {
+  margin: 0;
+}
+.butPrior {
+  border-radius: 5px;
+}
+.DelPrior {
+  border-radius: 5px;
+}
+

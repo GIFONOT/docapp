@@ -1,0 +1,171 @@
+Aleksandr, [6 апр. 2024 г., 17:08:42]:
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Resume Builder</title> 
+    <style> 
+        body { 
+            font-family: Arial, sans-serif; 
+            background-color: #f0f7ff; 
+            color: #333; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+        } 
+        .container { 
+            width: 80%; 
+            max-width: 1000px; 
+            padding: 20px; 
+            background-color: #fff; 
+            border-radius: 10px; 
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+            display: flex; 
+            flex-direction: column; 
+        } 
+        .section { 
+            display: flex; 
+            flex-direction: column; 
+            margin-bottom: 20px; 
+        } 
+        .section-title { 
+            font-weight: bold; 
+            margin-bottom: 5px; 
+        } 
+        .field { 
+            margin-bottom: 10px; 
+            display: flex; 
+            align-items: center; 
+        } 
+        .field label { 
+            width: 200px; 
+            margin-right: 10px; 
+        } 
+        .field input, .field textarea { 
+            flex: 1; 
+            padding: 8px; 
+            border: 1px solid #ccc; 
+            border-radius: 5px; 
+        } 
+        .field input[type="checkbox"] { 
+            width: auto; 
+            margin-right: 5px; 
+        } 
+        button { 
+            padding: 10px 20px; 
+            background-color: #007bff; 
+            color: #fff; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            align-self: flex-end; 
+        } 
+        button:hover { 
+            background-color: #0056b3; 
+        } 
+    </style> 
+</head> 
+<body> 
+    <div class="container"> 
+        <div class="section"> 
+            <h2 class="section-title">Personal Information</h2> 
+            <div class="field"> 
+                <label for="lastName">Last Name:</label> 
+                <input type="text" id="lastName" name="lastName" required> 
+            </div> 
+            <div class="field"> 
+                <label for="firstName">First Name:</label> 
+                <input type="text" id="firstName" name="firstName" required> 
+            </div> 
+            <div class="field"> 
+                <label for="middleName">Middle Name:</label> 
+                <input type="text" id="middleName" name="middleName"> 
+            </div> 
+            <div class="field"> 
+                <label for="gender">Gender:</label> 
+                <input type="text" id="gender" name="gender"> 
+            </div> 
+            <div class="field"> 
+                <label for="birthdate">Date of Birth:</label> 
+                <input type="text" id="birthdate" name="birthdate"> 
+            </div> 
+            <div class="field"> 
+                <label for="nationality">Nationality:</label> 
+                <input type="text" id="nationality" name="nationality"> 
+            </div> 
+            <div class="field"> 
+                <label for="phoneNumber">Phone Number:</label> 
+                <input type="text" id="phoneNumber" name="phoneNumber"> 
+            </div> 
+            <div class="field"> 
+                <label for="workPermit">Work Permit:</label> 
+                <input type="checkbox" id="workPermit" name="workPermit"> 
+            </div> 
+        </div> 
+ 
+        <div class="section"> 
+            <h2 class="section-title">Education & Work Experience</h2> 
+            <div class="field"> 
+                <label for="educationProgram">Educational Program:</label> 
+                <textarea id="educationProgram" name="educationProgram" rows="4"></textarea> 
+            </div> 
+            <div class="field"> 
+                <label for="hasExperience">Experience:</label> 
+                <input type="checkbox" id="hasExperience" name="hasExperience" onchange="toggleExperienceFields()"> 
+            </div> 
+            <div id="experienceFields"
+
+style="display: none;"> 
+                <div class="field"> 
+                    <label for="companyName">Company Name:</label> 
+                    <input type="text" id="companyName" name="companyName"> 
+                </div> 
+                <div class="field"> 
+                    <label for="position">Position:</label> 
+                    <input type="text" id="position" name="position"> 
+                </div> 
+                <div class="field"> 
+                    <label for="responsibilities">Responsibilities & Achievements:</label> 
+                    <textarea id="responsibilities" name="responsibilities" rows="4"></textarea> 
+                </div> 
+                <div class="field"> 
+                    <label for="startDate">Start Date:</label> 
+                    <input type="text" id="startDate" name="startDate"> 
+                </div> 
+                <div class="field"> 
+                    <label for="endDate">End Date:</label> 
+                    <input type="text" id="endDate" name="endDate"> 
+                </div> 
+            </div> 
+        </div> 
+ 
+        <div class="section"> 
+            <h2 class="section-title">Soft & Hard Skills</h2> 
+            <div class="field"> 
+                <label for="softSkills">Soft Skills:</label> 
+                <textarea id="softSkills" name="softSkills" rows="4"></textarea> 
+            </div> 
+            <div class="field"> 
+                <label for="hardSkills">Hard Skills:</label> 
+                <textarea id="hardSkills" name="hardSkills" rows="4"></textarea> 
+            </div> 
+        </div> 
+ 
+        <button type="button" onclick="generateResume()">Generate Resume</button> 
+    </div> 
+ 
+    <script> 
+        function toggleExperienceFields() { 
+            var experienceCheckbox = document.getElementById("hasExperience"); 
+            var experienceFields = document.getElementById("experienceFields"); 
+            experienceFields.style.display = experienceCheckbox.checked ? "block" : "none"; 
+        } 
+ 
+        function generateResume() { 
+            // Генерация резюме 
+        } 
+    </script> 
+</body> 
+</html>
