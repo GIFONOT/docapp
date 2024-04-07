@@ -47,6 +47,7 @@ return (
           <div className="buttons">
             <DownloadButton title={student.name} />
             <button onClick={() => handleFeedback(student.id)}>Оставить отклик</button>
+            <button className='nnnn' >Открыть резюме</button>
           </div>
         </div>
       ))}

@@ -28,3 +28,61 @@ body {
 .nav a:hover {
   text-decoration: underline;
 }
+.document-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40px;
+}
+.faq-page{
+  padding: 10px;
+}
+.document-card {
+  display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    align-items: flex-start;
+    align-content: flex-end;
+    flex-direction: column;
+}
+
+.document-card h2 {
+  margin: 0 0 5px;
+}
+
+.document-card p {
+  margin: 0;
+}
+
+.document-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.document-buttons button {
+  background-color: rgb(55, 75, 155);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.document-buttons button:hover {
+ opacity:  0.9;
+}
+ .hhhhh{
+  margin-left: 10px;
+ }
+ .FAQQQ{
+  font-size: 24px;
+ }
+ .vvvvvv{
+  font-style: italic;
+  padding-top: 20px;
+  color: rgb(55, 75, 155);
+ }

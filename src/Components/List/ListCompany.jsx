@@ -40,7 +40,7 @@ const companies = [
       <img
         width="50"
         height="50"
-        src="https://img.icons8.com/ios-filled/50/mac-os.png"
+        src="https://img.icons8.com/color/400/fedex.png"
         alt="Логотип Технологические Системы Инноваций"
       />
     ),
@@ -54,7 +54,7 @@ const companies = [
       <img
         width="50"
         height="50"
-        src="https://img.icons8.com/ios-filled/50/mac-os.png"
+        src="https://img.icons8.com/ios-filled/400/peterbilt.png"
         alt="Логотип Прогрессивные Технологии Строительства"
       />
     ),
@@ -68,7 +68,7 @@ const companies = [
       <img
         width="50"
         height="50"
-        src="https://img.icons8.com/ios-filled/50/mac-os.png"
+        src="https://img.icons8.com/external-others-inmotus-design/67/external-Mercedes-mercedes-and-bmw-others-inmotus-design-3.png"
         alt="Логотип Экологическая Технологическая Компания"
       />
     ),
@@ -82,7 +82,7 @@ const companies = [
       <img
         width="50"
         height="50"
-        src="https://img.icons8.com/ios-filled/50/mac-os.png"
+        src="https://img.icons8.com/ios/400/bmw.png"
         alt="Логотип Инжиниринговая Компания Прогресса"
       />
     ),
@@ -96,7 +96,7 @@ const companies = [
       <img
         width="50"
         height="50"
-        src="https://img.icons8.com/ios-filled/50/mac-os.png"
+        src="https://img.icons8.com/color/400/microsoft.png"
         alt="Логотип Компания Инновационных Решений"
       />
     ),
@@ -110,7 +110,7 @@ const companies = [
       <img
         width="50"
         height="50"
-        src="https://img.icons8.com/ios-filled/50/mac-os.png"
+        src="https://img.icons8.com/fluency/400/vk-com.png"
         alt="Логотип Биотехнологическая Лаборатория Прогресса"
       />
     ),
@@ -124,7 +124,7 @@ const companies = [
       <img
         width="50"
         height="50"
-        src="https://img.icons8.com/ios-filled/50/mac-os.png"
+        src="https://img.icons8.com/ios/400/twitter--v1.png"
         alt="Логотип Технологическая Компания Инновации"
       />
     ),
@@ -138,7 +138,7 @@ const companies = [
       <img
         width="50"
         height="50"
-        src="https://img.icons8.com/ios-filled/50/mac-os.png"
+        src="https://img.icons8.com/ios/400/tesla-logo.png"
         alt="Логотип Промышленная Инжиниринговая Группа"
       />
     ),
@@ -152,7 +152,7 @@ const companies = [
       <img
         width="50"
         height="50"
-        src="https://img.icons8.com/ios-filled/50/mac-os.png"
+        src="https://img.icons8.com/ios/400/toyota.png"
         alt="Логотип Строительно-Техническая Группа Прогресса"
       />
     ),
@@ -166,7 +166,7 @@ const companies = [
       <img
         width="50"
         height="50"
-        src="https://img.icons8.com/ios-filled/50/mac-os.png"
+        src="https://img.icons8.com/ios/400/linux.png"
         alt="Логотип Технологический Центр Инноваций"
       />
     ),

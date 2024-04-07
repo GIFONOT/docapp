@@ -1,0 +1,86 @@
+.company-profile {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.company-info {
+  margin-left: 20px;
+}
+
+.company-info img {
+  margin-bottom: 10px;
+}
+
+.students {
+  display: flex;
+}
+
+.students-offers,
+.students-priority {
+  margin-left: 20px;
+}
+
+.students-offers ul,
+.students-priority ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.students-offers h3,
+.students-priority h3 {
+  margin-bottom: 10px;
+}
+
+.students-offers li,
+.students-priority li {
+  margin-bottom: 5px;
+}
+
+.company-info h2 {
+  font-size: 20px;
+}
+
+.students-offers,
+.students-priority {
+  width: 250px;
+}
+.IMG{
+  width: 200px;
+  height: 200px;
+}
+.student-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.student-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.student-card h4 {
+  margin: 0 0 5px;
+}
+
+.student-card p {
+  margin: 0;
+}
+
+.student-card button {
+  background-color: rgb(55, 75, 155);;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+.student-card button:hover {
+  opacity: 0.9;
+}

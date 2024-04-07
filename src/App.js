@@ -7,6 +7,8 @@ import Main from './Components/main/Main.jsx'
 import CompanyPage from './Components/List/ListCompany.jsx'
 import Profile from './Components/profile/Profile.jsx'
 import Prior from './Components/List/Prior.jsx'
+import FAQ from './Components/header/FAQ.jsx'
+import LoginForm from './Components/Authorization/LoginForm/LoginForm.js'
 import CompanyProfile from './Components/profile/CompanyProfile.jsx'
 import StudentList from './Components/List/StudentList.jsx'
 import Header from './Components/header/Header.jsx'
@@ -72,6 +74,8 @@ function App() {
       <Route path="/" element={<Main />} />
       <Route path="/CompanyPage" element={<CompanyPage />} />
       <Route path="/student" element={<StudentList />} />
+      <Route path="/LoginForm" element={<LoginForm />} />
+      <Route path="/FAQ" element={<FAQ />} />
       <Route path="/CompanyProfile" element={<CompanyProfile />} />
       <Route path="/Prior" element={<Prior />} />
       <Route path="/ResumeBuilder" element={<ResumeBuilder />} />
